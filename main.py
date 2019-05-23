@@ -3,7 +3,7 @@ from telebot import apihelper
 from comand_parser import *
 
 apihelper.proxy = {'https': 'socks5://127.0.0.1:9050'}
-token = '881030199:AAHowXHOM-zfu9B4kY5slSGEhuZ6hE9TpL4'
+token = 'token'
 
 @bot.message_handler(commands=['start'])#
 def start_message(message):
